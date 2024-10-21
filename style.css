@@ -6,14 +6,10 @@
     --cor-principal: #6e9f88;
     --cor-secundaria:  #67b165;
     --cor-destaque:  #28877e;
-}
+    --cor-fundo: #b9edfa;
 }
 
-body {
-    font-family: 'Chakra Petch', sans-serif;
-    color: var(--cor-principal);
-    background-color: #b9edfa;
-}
+
 
 h1, h2, h5 {
     color: var(--cor-secundaria);
@@ -33,3 +29,9 @@ a:hover{
     color: var(--cor-destaque);
 }
 
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+    background-color: var(--cor-fundo);
+
+}
